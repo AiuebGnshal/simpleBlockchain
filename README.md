@@ -21,6 +21,8 @@
 |                |timeStamp           |
 |                |previousHash        |
 |                |hash                |
+|**Methods**                          |
+|                |mineBlock           |
 
 
 |**Transaction** |   **Wallet**   |
