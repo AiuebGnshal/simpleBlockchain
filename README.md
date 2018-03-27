@@ -1,4 +1,4 @@
-> simple blockchain
+# simple blockchain
 
 ## class Blockchain
 |                |                    |
@@ -21,6 +21,8 @@
 |                |timeStamp           |
 |                |previousHash        |
 |                |hash                |
+|**Methods**                          |
+|                |mineBlock           |
 
 
 |**Transaction** |   **Wallet**   |
