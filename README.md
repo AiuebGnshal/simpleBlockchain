@@ -21,6 +21,7 @@
 |                |timeStamp           |
 |                |previousHash        |
 |                |hash                |
+|                |tryHash             |
 |**Methods**                          |
 |                |mineBlock           |
 
