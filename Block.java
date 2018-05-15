@@ -8,7 +8,7 @@ public class Block {
 	public long blockID;
 	public String previousHash; 
 	public String merkleRoot;
-	public ArrayList<Transaction> transactions = new ArrayList<Transaction>(); //данные - простое сообщение
+	public ArrayList<Transaction> transactions = new ArrayList<Transaction>();
 	public long timeStamp;
 	public int nonce;
 	
