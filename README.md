@@ -35,19 +35,19 @@
 
 |**Transaction**    |   **Wallet**   |
 |-------------------|----------------|
-|**Fields**         | privateKey     |
-|transactionId      | publicKey      |  
-|sender             | UTXOs          |
-|recepient          |**Methods**     |
-|value              |generateKeyPair |
-|signature[]        |getBalance      |
-|**Methods**        |sendFunds       |
-|processTransaction ||
-|getInputsValue     ||
-|calulateHash       ||
-|getOutputsValue    ||
-|verifySignature    ||
-|generateSignature  ||
+|**Fields**         |                |
+|transactionId      | privateKey     |  
+|sender             | publicKey      |
+|recepient          | UTXOs          |
+|value              |                |
+|signature[]        |                |
+|**Methods**        |                |
+|processTransaction |generateKeyPair |
+|getInputsValue     |getBalance      |
+|calulateHash       |sendFunds       |
+|getOutputsValue    |                |
+|verifySignature    |                |
+|generateSignature  |                |
 
 
 ## class TransactionInput and TransactionOutput
@@ -59,6 +59,6 @@
 |UTXO                | reciepient          |
 |                    | value               |
 |                    | parentTransactionId |
-|                    | **Methods**         |
+| **Methods**        |                     |
 |                    | isMine              |
 
